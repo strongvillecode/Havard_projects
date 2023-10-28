@@ -1,5 +1,5 @@
 """
-WSGI config for vs_web project.
+WSGI config for trialproject project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "vs_web.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "trialproject.settings")
 
 application = get_wsgi_application()
